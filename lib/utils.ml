@@ -1,7 +1,3 @@
-let test () : unit -> unit = 
-  let f = fun () -> print_endline "Hello, World!" in
-    f
-
 let string_of_position (pos : Lexing.position) : string =
   Printf.sprintf "%s:%d:%d" pos.pos_fname
     pos.pos_lnum (pos.pos_cnum - pos.pos_bol + 1)

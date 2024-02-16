@@ -1,3 +1,1 @@
-open Cpe_lang.Utils
-
-let () = test () ()
+let () = print_endline "Hello, World!"
