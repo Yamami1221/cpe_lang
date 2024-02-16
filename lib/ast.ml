@@ -1,5 +1,3 @@
-open Typechecker
-
 type pos = Lexing.position * Lexing.position
 
 type 't prog =
