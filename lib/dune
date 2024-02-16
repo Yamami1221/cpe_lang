@@ -1,0 +1,9 @@
+(library
+ (name cpe_lang)
+ (modules lexer parser ast typechecker utils))
+
+(menhir
+ (modules parser)
+ (flags --strict --dump --explain))
+
+(ocamllex lexer)

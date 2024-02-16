@@ -1,0 +1,1 @@
+type ty = Int | Bool
